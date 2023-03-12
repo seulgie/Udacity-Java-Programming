@@ -1,3 +1,5 @@
+/* Inheritance */
+
 public class Student extends Person {
 
 	private String studentId;
