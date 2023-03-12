@@ -1,3 +1,5 @@
+/* Inheritance */
+
 public class StudentEmployee extends Student {
     private String employeeId;
     private double rateOfPayPerHour;
