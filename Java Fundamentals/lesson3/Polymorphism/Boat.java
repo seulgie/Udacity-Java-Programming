@@ -1,9 +1,13 @@
 /* Polymorphism */
 
-public class Plane extends Vehicle {
+public class Boat extends Vehicle {
 
-    public Plane() {
+    public Boat() {
         // Notice we are passing our arguments into our superclass (Vehicle) constructor
-        super("Plane start", "Plane stop", "Plane speed", "Plane direction");
+        super("Boat start", "Boat stop", "Boat speed", "Boat direction");
+    }
+    
+    public void depthFinder() {
+        System.out.println("How deep is this water");
     }
 }
