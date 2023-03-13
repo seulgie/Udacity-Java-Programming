@@ -27,9 +27,9 @@ public class MapExercise {
         }
 
         System.out.println("Get Mike: " + mapOfPeople.get("mike@email.com")); // Get Mike: Mike mike@email.com
-        System.out.println("Get Jeff: " + mapOfPeople.get("jeff@email.com"));
-        System.out.println("Contains Mike: " + mapOfPeople.containsKey("mike@email.com"));
-        System.out.println("Contains Jeff: " + mapOfPeople.containsKey("jeff@email.com"));
+        System.out.println("Get Jeff: " + mapOfPeople.get("jeff@email.com")); // Get Jeff: null
+        System.out.println("Contains Mike: " + mapOfPeople.containsKey("mike@email.com")); // Contains Mike: true
+        System.out.println("Contains Jeff: " + mapOfPeople.containsKey("jeff@email.com")); // Contains Jeff: false
 
     }
 }
